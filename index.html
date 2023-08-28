@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="script" href="index.js" />
+  </head>
+  <body>
+    <div class="main__container">
+      <div class="main__first" id="heading"><h4>Click to Generate</h4></div>
+
+      <div class="main__first">
+        <div class="slidecontainer">
+          4
+          <input
+            type="range"
+            min="4"
+            max="17"
+            value="9"
+            class="slider"
+            id="myRange"
+          />
+          17
+        </div>
+      </div>
+      <div class="main__first">
+        <div class="main__second">
+          <p class="main__second__content">Include Uppercase</p>
+          <input
+            type="checkbox"
+            name=""
+            class="Uppercase__input"
+            id="uppercase__input"
+          />
+        </div>
+      </div>
+      <div class="main__first">
+        <div class="main__third">
+          <p class="main__third__content">Include Lowercase</p>
+          <input
+            type="checkbox"
+            name=""
+            class="Uppercase__input"
+            id="lowercase__input"
+          />
+        </div>
+      </div>
+      <div class="main__first">
+        <div class="main__fourth">
+          <p class="main__fourth__content">Include Numbers</p>
+          <input
+            type="checkbox"
+            name=""
+            class="Uppercase__input"
+            id="number__input"
+          />
+        </div>
+      </div>
+      <div class="main__first">
+        <div class="main__fifth">
+          <p class="main__fifth__content">Include Characters</p>
+          <input
+            type="checkbox"
+            name=""
+            class="Uppercase__input"
+            id="input__characters"
+          />
+        </div>
+      </div>
+      <button
+        type="button"
+        class="button btn btn-primary btn-lg btn-block"
+        id="button__submit"
+      >
+        Generate Password
+      </button>
+    </div>
+
+    <script src="index.js"></script>
+  </body>
+</html>

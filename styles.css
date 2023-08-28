@@ -1,0 +1,90 @@
+body{
+    background-color: #279EFF;
+   
+
+}
+.main__container{
+    background-color: #0C356A;
+    width: 350px;
+    height: 550px;
+    margin-left: 38%;
+    border-radius: 10px;
+}
+
+.main__container h4 {
+    color: white;
+    font-size: 35px;
+}
+.main__first{
+    position: relative;
+    width: 300px;
+    height: 50px;
+   margin-left: 25px;
+   margin: 20px;
+  top: 20px;
+    background-color: rgba(255, 255, 255, 0.08);
+    border-radius: 10px;
+    text-align: center;
+}
+
+.slidecontainer{
+    position: relative;
+    top: 15px;
+  color: white;
+  font-size: larger;
+}
+
+.number{
+    margin: 0 15px;
+
+}
+
+.main__second__content{
+    position: relative;
+    top: 15px;
+    right: 30px;
+    font-size: 20px;
+    color: white;
+}
+
+
+.Uppercase__input{
+    position: relative;
+    bottom: 29px;
+    left: 90px;
+  width: 20px;
+  height: 20px;
+}
+
+.main__third__content{
+    position: relative;
+    top: 15px;
+    right: 30px;
+    font-size: 20px;
+    color: white;
+}
+
+.main__fourth__content{
+    position: relative;
+    top: 15px;
+    right: 30px;
+    font-size: 20px;
+    color: white;
+}
+
+.main__fifth__content{
+    position: relative;
+    top: 15px;
+    right: 30px;
+    font-size: 20px;
+    color: white;
+}
+
+.button{
+    position: relative;
+    top: 30px;
+    left: 70px;
+
+}
+  
+ 
